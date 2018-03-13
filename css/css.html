@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CSS</title>
+    <style>
+        #contenedor {
+            width: 40%;
+            max-width: 150px;
+            margin: 0 auto;
+        }
+        
+        #grupo {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        p {
+            background-color: black;
+            color: white;
+            padding: 5px;
+            /* Eso que sigue... */
+            /* border-width: 1px;
+            border-style: solid;
+            border-color: #aaa;
+            /* Es lo mismo que lo que sigue */
+            /* border: 1px solid #aaa; */
+            margin: 0;
+        }
+        
+        #primer-parrafo {
+            background-color: green;
+            max-height: 50px;
+            overflow: hidden;
+        }
+        
+        .parrafo-especial {
+            background-color: blue;
+        }
+        
+        #mi-span {
+            background-color: aquamarine;
+            height: 200px;
+        }
+        
+        @media only screen and (max-width: 400px) {
+            #contenedor {
+                width: 100%!important;
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="contenedor">
+        <div id="grupo">
+            <p id="primer-parrafo">Lorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolor</p>
+
+            <p class="parrafo-especial">Segundo parrafo</p>
+            <p>Segundo parrafo</p>
+            <span id="mi-span">Lorem ipsum</span>
+            <span>otro</span>
+        </div>
+        <p class="parrafo-especial">Segundo parrafo</p>
+        <p>Segundo parrafo</p>
+    </div>
+</body>
+
+</html>

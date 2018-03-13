@@ -1,0 +1,62 @@
+<html>
+
+<head>
+    <title>Grid</title>
+    <style>
+        div {
+            margin: 0;
+            padding: 0;
+        }
+        
+        #contenedor {
+            width: 800px;
+            height: 500px;
+            margin: 0 auto;
+            background-color: red;
+        }
+        
+        #primera-columna {
+            background-color: beige;
+            width: 80%;
+            height: 100%;
+            float: left;
+        }
+        
+        #segunda-columna {
+            background-color: green;
+            width: 20%;
+            height: 100%;
+            float: left;
+        }
+        
+        #primera-fila {
+            background-color: yellow;
+            width: 100%;
+            height: 50%;
+            float: left;
+        }
+        
+        #segunda-fila {
+            background-color: black;
+            width: 100%;
+            height: 50%;
+            float: left;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Este es el contenedor principal -->
+    <div id="contenedor">
+        <!-- Esta es la primera "columna" -->
+        <div id="primera-columna">
+            <!-- Esta es la primera fila -->
+            <div id="primera-fila"></div>
+            <div id="segunda-fila"></div>
+        </div>
+        <!-- Esta es la segunda "columna" -->
+        <div id="segunda-columna"></div>
+    </div>
+</body>
+
+</html>
